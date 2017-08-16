@@ -1,13 +1,24 @@
 {
   "name": "prorobo",
   "version": "1.0.0",
- "engines": {
+  "engines": {
     "node": "8.4.0"
-  },  "description": "",
+  },
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-, "start" : "node app.js" },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
   "author": "Josiane",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "all": "0.0.0",
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "modules": "^0.4.0",
+    "mongoose": "^4.11.7",
+    "request": "^2.81.0"
+  }
 }
